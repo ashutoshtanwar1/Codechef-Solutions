@@ -1,0 +1,30 @@
+link:---  https://www.codechef.com/problems/CHFIDEAL
+
+
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+
+	cout<<"1"<<endl;		//We helped CHEF in opening one door let us choose 1 (we may choose 2 or 3) 
+
+    	int n;
+
+	cin>>n;     //Input of HOST choice
+	
+	if(n==2){
+
+	cout<<"3"; //As it is written "the host opens a different door (let's denote it by Y) such that there is a goat behind this door" 
+	//Hence car is behind gate which is NOT selected
+	}
+	
+	else{
+
+	cout<<"2";
+}
+
+	return 0;
+
+	}
